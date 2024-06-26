@@ -1,0 +1,67 @@
+h1 {
+  color: rgb(28, 0, 212);
+  font-size: 3rem;
+}
+h2 {
+  color: rgb(9, 163, 43);
+  font-size: 1.5rem;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+}
+table {
+  width: 100%;                  /* 幅をページいっぱいに広げる */
+  border-collapse: collapse;    /* 隣り合う枠線を結合する */
+  text-align: left;             /* テキストを左寄せにする */
+}
+
+th, td {
+  padding: 0.5rem;              /* 内側の余白を0.5rem取る */
+  border: 1px solid #ddd;       /* 太さ1px, スタイルsolid, 色#dddの枠線をつける */
+}
+
+th {
+  background-color: #bdbcbc;    /* 要素の背景色を#e1adadにする */
+}
+body {
+  width: 80%;          /* 幅をページの80%にする */
+  min-width: 300px;    /* 最小の幅を300pxにする */
+  max-width: 800px;    /* 最大の幅を800pxにする */
+  margin: 0 auto;      /* 上下のマージンを0, 左右のマージンをautoにする */
+}
+img {
+  height: 2rem;
+}
+.icon{
+  height: 20rem;
+}
+.icon2{
+  height: 3.5rem;
+}
+header {
+  display: flex;    /* 子要素を縦並びから横並びに変更 */
+}
+header {
+  display: flex;
+  justify-content: space-between;   /* 間隔を最大まで広げる */
+}
+
+header div {
+  display: flex;    /* ネスト対応 */
+}
+header div {
+  display: flex;
+  align-items: center;    /* 垂直方向を中央揃え */
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd; /* 太さ1px, スタイルsolid, 色#dddの枠線を下だけつける */
+}
